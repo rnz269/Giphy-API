@@ -1,0 +1,19 @@
+.buttons [type] {
+margin:5px;
+padding:2px 8px;
+}
+
+button {
+	background-color:teal;
+	color:white;
+	border-radius: 5px;
+}
+
+body {
+	background-color:#f7f7f7;
+}
+
+.gifSpace {
+	margin-top:25px;
+}
+

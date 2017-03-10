@@ -1,0 +1,26 @@
+1. Have animal buttons at the top, when clicked, they will hit the Giphy API and render gifs in the gifspace
+
+2. Be able to add a button
+	-- Trim the value of the button, and don't add duplicates
+
+3. Make the gifs play and pause on click
+
+var animalArray = ["dog", "cat", "rabbit", "hamster", "skunk", "goldfish", "bird", "ferret", "turtle", "sugar glider", "chinchilla", "hedgehog", "hermit crab", "gerbil", "pygmy goat", "chicken" "capybara", "teacup pig", "serval", "salamander", "frog"];
+for(var animalCounter = 0; animalCounter < animalArray.length; animalCounter++){
+	var animalButton = $("<button>");
+	animalButton.attr("type", animalArray[animalCounter]);
+	animalButton.text(animalArray[animalCounter]);
+
+	$(".buttons").append(animalButton);
+}
+
+
+
+Update:
+
+1. Need to be able to add animals upon user input in text entry DONE
+Also an enter should trigger a submit DONE
+
+2. Need to implement pause and play mechanism on click of gif
+
+3. Need gifs to appear side by side in gifContainer
