@@ -25,10 +25,7 @@ function activateButtons(){
 		var animal = $(this).attr("type");
 		// // queryURL concatenates url, person variable, and an api key 
 		// to get gifs of that animal
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
-	        animal + "&api_key=dc6zaTOxFJmzC&limit=10";
-
-	    var queryStillURL = "http://api.giphy.com/v1/gifs/search?q=" +
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
 	        animal + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 	    $.ajax ({
